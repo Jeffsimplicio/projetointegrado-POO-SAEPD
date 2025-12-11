@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "user": "Ana",
+        "password": "admin",
+        "nivel": "admin"
+    },
+    {
+        "id": 2,
+        "user": "Carlos",
+        "password": "Carlos",
+        "nivel": "responsavel"
+    },
+    {
+        "id": 3,
+        "user": "Beatriz",
+        "password": "Beatriz123",
+        "nivel": "professor"
+    },
+    {
+        "id": 4,
+        "user": "Maria",
+        "password": "Maria123",
+        "nivel": "responsavel"
+    }
+]
