@@ -1,1 +1,1 @@
-usuarios = {"login": "marcos", "senha": "admin1", "funcao": "admin"}
+nome = {"login": "marcos", "senha": "admin1", "funcao": "admin"}
