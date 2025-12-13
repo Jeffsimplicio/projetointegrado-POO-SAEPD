@@ -7,3 +7,5 @@ class Aluno:
         self.data_nascimento = data_nascimento
         self.id_turma = id_turma
         self.id_responsavel = id_responsavel
+        from datetime import date
+
