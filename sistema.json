@@ -1,0 +1,21 @@
+{
+    "professores": [
+        {
+            "id": 1,
+            "nome": "Jose",
+            "email": "jose@gmail.com",
+            "disciplina": "Matemática",
+            "login": "jose",
+            "senha": "123"
+        }
+    ],
+    "alunos": [],
+    "responsaveis": [],
+    "turmas": [],
+    "notas": [],
+    "frequencias": [],
+    "justificativas": [],
+    "mensagens": [],
+    "ocorrencias": [],
+    "comportamentos": []
+}
