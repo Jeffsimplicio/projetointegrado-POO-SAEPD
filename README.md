@@ -25,18 +25,21 @@ O sistema está sendo desenvolvido em **Python**, seguindo uma arquitetura robus
 3.  **Encapsulamento:** Atributos sensíveis (como senha e IDs) são protegidos com acesso controlado (métodos *getters* ou propriedades `@property`).
 
 **Hierarquia de Classes Principal:**
-O diagrama a seguir ilustra a fundação da arquitetura, mostrando a herança da classe base `Usuario`.
+O diagrama a seguir ilustra a fundação da arquitetura, mostrando a herança da classe base `Usuario` e suas conexões.
 
 
 ## 👥 Divisão de Trabalho e Contribuições (Grupo - UFCA)
 
-O trabalho foi dividido em blocos de responsabilidade, utilizando os princípios de coesão e baixo acoplamento para a modularidade do projeto.
+O trabalho foi dividido em três grandes módulos. **A responsabilidade é definida pelas tarefas**, e os membros devem preencher seu nome e matrícula ao assumirem o módulo.
 
-| Integrante | Matrícula | Contribuições Principais | Status |
-| :--- | :--- | :--- | :--- |
-| **Ilma Rodrigues Vieira Azevedo (Você)** | 2025015455 | **Documentação, Estrutura Base e Módulo de Comunicação:** `README.md`, Classe Abstrata `Usuario`, e o Módulo de Mensagens (`mensagem.py`, `messaging_service.py`). | **PR Aberto** |
-| **Gyan Carlos Mateus de Oliveira** | 2025015339 | **Entidades e Perfil Docente:** Classes `Aluno`, `Turma`, Repositórios Acadêmicos e a implementação da classe `Professor`. | Em Progresso |
-| **Jose Nataniel Gomes Pereira** | 2025015698 | **Núcleo, Serviços e Perfil Responsável:** Classes `Administrador`, Serviços de Autenticação (`AuthService`), Lógica Acadêmica (`AcademicService`) e a implementação da classe `PaiResponsavel`. | Em Progresso |
+| Integrante | Matrícula | Módulo de Responsabilidade | Contribuições Principais | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ilma Rodrigues V. A.** | 2025015455 | **Estrutura Base / Documentação** | `README.md`, Classe Abstrata `Usuario`, Estrutura Inicial | **Concluída** |
+| **[Membro 2]** | [Matrícula] | **Módulo de Comunicação** | `Mensagem`, Repositório e Serviço de Mensagens | Pendente |
+| **[Membro 3]** | [Matrícula] | **Módulo de Perfis** | Implementação da classe `Professor` e Repositório de Perfis | Pendente |
+| **[Membro 4]** | [Matrícula] | **Módulo de Perfis** | Implementação da classe `Administrador` e Serviço de Autenticação (`AuthService`) | Pendente |
+| **[Membro 5]** | [Matrícula] | **Módulo Acadêmico** | Classes `Turma`, `Nota`, `Frequencia` e seus Repositórios | Pendente |
+| **[Membro 6]** | [Matrícula] | **Módulo Acadêmico / Principal** | Classes `Aluno`, `PaiResponsavel` e `main.py` (Lógica de Execução) | Pendente |
 
 ## ⚙️ Como Executar o Projeto (Getting Started)
 
