@@ -39,7 +39,7 @@ O trabalho foi dividido em três grandes módulos. **A responsabilidade é defin
 | **Gyan Carlos Mateus de Oliveira** | 2025015339 | **Módulo de Perfis** | Implementação da classe `Professor` e Repositório de Perfis | Em Progresso |
 | **[Membro 4]** | [Matrícula] | **Módulo de Perfis** | Implementação da classe `Administrador` e Serviço de Autenticação (`AuthService`) | Pendente |
 | **[Membro 5]** | [Matrícula] | **Módulo Acadêmico** | Classes `Turma`, `Nota`, `Frequencia` e seus Repositórios | Pendente |
-| **[Membro 6]** | [Matrícula] | **Módulo Acadêmico / Principal** | Classes `Aluno`, `PaiResponsavel` e `main.py` (Lógica de Execução) | Pendente |
+| **Jose Nataniel Gomes Pereira** | [Matrícula] | **Módulo Acadêmico / Principal** | Classes `Aluno`, `PaiResponsavel` e `main.py` (Lógica de Execução) | **Concluída** |
 
 
 ## ⚙️ Como Executar o Projeto (Getting Started)
