@@ -43,6 +43,7 @@ O trabalho foi dividido em três grandes módulos. **A responsabilidade é defin
 
 
 ## ⚙️ Como Executar o Projeto (Getting Started)
+executar --- python login.py
 
 ### Pré-requisitos
 * Python 3.8 ou superior instalado.
