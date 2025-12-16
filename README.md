@@ -20,9 +20,9 @@ O sistema está sendo desenvolvido em **Python**, seguindo uma arquitetura robus
 
 **Princípios de POO Aplicados:**
 
-1.  **Abstração e Herança:** O sistema é fundado na classe abstrata `Usuario` (definida em `usuario_base.py`), que estabelece um contrato de métodos obrigatórios (Polimorfismo) para todos os perfis (`Professor`, `PaiResponsavel`, `Administrador`).
-2.  **Polimorfismo:** Todas as classes de usuário implementam o método `apresentar_painel()`, mas com lógicas e interfaces específicas para cada perfil.
-3.  **Encapsulamento:** Atributos sensíveis (como senha e IDs) são protegidos com acesso controlado (métodos *getters* ou propriedades `@property`).
+1.  **Abstração e Herança:** O sistema é fundado na classe abstrata `administrador` (definida em `Administrador.py`), que estabelece um contrato de métodos obrigatórios (Polimorfismo) para todos os perfis (`Professor`, `Responsavel`, `Administrador`).
+2.  **Polimorfismo:** Todas as classes de de perfiis implementam o método `Velidar`, mas com lógicas e interfaces específicas para cada perfil.
+3.  **Encapsulamento:** Atributos sensíveis (como senha e IDs) são protegidos com acesso controlado .
 
 **Hierarquia de Classes Principal:**
 O diagrama a seguir ilustra a fundação da arquitetura, mostrando a herança da classe base `Usuario` e suas conexões.
@@ -32,14 +32,14 @@ O diagrama a seguir ilustra a fundação da arquitetura, mostrando a herança da
 
 O trabalho foi dividido em três grandes módulos. **A responsabilidade é definida pelas tarefas**, e os membros devem preencher seu nome e matrícula ao assumirem o módulo.
 
-| Integrante | Matrícula | Módulo de Responsabilidade | Contribuições Principais | Status |
+| Integrante | Módulo de Responsabilidade | Contribuições Principais | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **Ilma Rodrigues V. A.** | 2025015455 | **Estrutura Base / Documentação** | `README.md`, Classe Abstrata `Usuario`, Estrutura Inicial | **Concluída** |
-| **[Membro 2]** | [Matrícula] | **Módulo de Comunicação** | `Mensagem`, Repositório e Serviço de Mensagens | Pendente |
-| **Gyan Carlos Mateus de Oliveira** | 2025015339 | **Módulo de Perfis** | Implementação da classe `Professor` e Repositório de Perfis | Em Progresso |
-| **[Membro 4]** | [Matrícula] | **Módulo de Perfis** | Implementação da classe `Administrador` e Serviço de Autenticação (`AuthService`) | Pendente |
-| **[Membro 5]** | [Matrícula] | **Módulo Acadêmico** | Classes `Turma`, `Nota`, `Frequencia` e seus Repositórios | Pendente |
-| **Jose Nataniel Gomes Pereira** | [Matrícula] | **Módulo Acadêmico / Principal** | Classes `Aluno`, `PaiResponsavel` e `main.py` (Lógica de Execução) | **Concluída** |
+| **Ilma Rodrigues V. A. **Estrutura Base / Documentação** | `README.md`, criação das Classe Abstrata , Estrutura Inicial |
+| **Francisco Jeferson Simplicio de Sousa**  | **Módulo de Comunicação** | `Mensagem`, `justificativa`, Repositório e Serviço de Mensagens | 
+| **Gyan Carlos Mateus de Oliveira**  | **Módulo de Perfis** | Implementação da classe `Professor`, `Responsavel` e Repositório de Perfis | 
+| **Erislanio Jaco da Silva**  | **Módulo de Perfis** | Implementação da classe `Administrador` e Serviço de Autenticação (classes de Validação) | 
+| **Francisco Jeferson Simplicio de Sousa**  | **Módulo Acadêmico** | Classes `Turma`, `Nota`, `Frequencia` e seus Repositórios | Pendente |
+| **Jose Nataniel Gomes Pereira**  | **Módulo Acadêmico / Principal** | Classes `login`, `Administrador` (Lógica de Execução) | 
 
 
 ## ⚙️ Como Executar o Projeto (Getting Started)
